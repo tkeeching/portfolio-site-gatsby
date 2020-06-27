@@ -1,0 +1,23 @@
+@import '../../components/Layout/Layout'
+
+.section-projects
+  margin: 220px auto
+  border: 2px dashed gold
+  width: $main-column-width
+
+.section-projects
+  h1
+    // text-align: center
+    margin-bottom: 50px
+    font-size: 2.5rem
+
+  a.anchor
+    display: block
+    position: relative
+    top: -100px
+    visibility: hidden
+
+.projects-card-container
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
+  grid-gap: 20px

@@ -1,13 +1,14 @@
 import React from "react"
 import "./About.sass"
 
-import ProfileImg from "../../components/ProfileImg"
+import ProfileImg from "../../components/ProfileImg/ProfileImg"
 
 const About: React.FC = () => (
-  <div id="about">
+  <div className="section-about">
+    <a className="anchor" id="about"></a>
+    <h1>About me</h1>
     <div className="profile-grid-container">
       <div>
-        <h1>About me</h1>
         <p>A self-motivated bootcamp graduate looking for a role in Front End or Full Stack development</p>
         <p>My mission as a software developer is to create beautiful and functional apllications that empower and improve lives.</p>
         <p>
