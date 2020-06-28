@@ -2,7 +2,8 @@ import React from "react"
 import "./Contact.sass"
 
 const Contact: React.FC = () => (
-  <div id="contact">
+  <div className="section-contact">
+    <a className="anchor" id="contact"></a>
     <h1>Get in touch</h1>
     <nav>
       <a href="https://github.com/tkeeching" target="_blank">

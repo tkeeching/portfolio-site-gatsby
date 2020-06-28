@@ -1,10 +1,10 @@
 @import '../../components/Layout/Layout'
   
-#contact
+.section-contact
   margin: 250px auto
   width: $main-column-width
 
-#contact
+.section-contact
   h1
     font-size: 2.5rem
     margin-bottom: 100px
@@ -17,3 +17,19 @@
 
   img
     width: 60px
+
+  a.anchor
+    display: block
+    position: relative
+    top: $anchor-top-offset
+    visibility: hidden  
+
+@media screen and ( max-width: 900px )
+  .section-contact
+    width: 80%
+    margin-bottom: 100px
+
+  .section-contact
+    nav
+      grid-template-columns: 1fr
+      grid-gap: 20px
