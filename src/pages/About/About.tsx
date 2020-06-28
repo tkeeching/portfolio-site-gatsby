@@ -10,11 +10,11 @@ const About: React.FC = () => (
     <div className="profile-grid-container">
       <div>
         <p>A self-motivated bootcamp graduate looking for a role in Front End or Full Stack development</p>
-        <p>My mission as a software developer is to create beautiful and functional apllications that empower and improve lives.</p>
+        <p>My mission as a software developer is to create beautiful and functional applications that empower and improve lives.</p>
         <p>
-          I recently graduated from the Software Engineering Immersive 
-          cooding bootcamp with General Assembly where I learned about computer science fundamentals,
-          collaboration tools and full stack programming languages and frameworks.
+          With a desire in creating a positive and lasting impact on people’s lives, I firmly believe in 
+          continuous improvement and strive to apply my software engineering knowledge in creating tools 
+          that empower people and businesses to reach their potential.
         </p>
       </div>
       <div className="profile-img">
