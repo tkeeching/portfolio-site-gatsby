@@ -8,7 +8,7 @@ import DownArrow from "../DownArrow/DownArrow"
 const Hero: React.FC = () => {
   let hero = useRef(null)
   let heading = useRef(null)
-  let tl = new TimelineLite({ delay: 1 })
+  let tl = new TimelineLite({ delay: 1.5 })
 
   useEffect(() => {
     const mainHeading = heading.firstElementChild
