@@ -1,7 +1,7 @@
 @import '../../components/Layout/Layout'
 
 .section-about
-  margin: 200px auto
+  margin: 250px auto
   width: $main-column-width
 
 .section-about
@@ -13,13 +13,13 @@
   a.anchor
     display: block
     position: relative
-    top: -100px
+    top: $anchor-top-offset
     visibility: hidden
 
 .skill-grid-container
   margin-top: 50px
   display: grid
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
+  grid-template-columns: repeat(auto-fill, minmax(250px, 250px))
 
 .profile-grid-container
   display: grid
@@ -28,9 +28,3 @@
 
 .profile-img
   max-width: 350px
-  // margin-bottom: 1.45rem
-
-.profile-img  
-    img
-      border-radius: 0 60px 0 60px
-

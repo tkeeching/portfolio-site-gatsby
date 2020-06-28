@@ -13,10 +13,8 @@ const About: React.FC = () => (
         <p>My mission as a software developer is to create beautiful and functional apllications that empower and improve lives.</p>
         <p>
           I recently graduated from the Software Engineering Immersive 
-          cooding bootcamp with General Assembly where I learned about computer science fundamental,
+          cooding bootcamp with General Assembly where I learned about computer science fundamentals,
           collaboration tools and full stack programming languages and frameworks.
-          I have also completed a number of projects from Front End to Full Stack which you
-          can find in the Projects section.
         </p>
       </div>
       <div className="profile-img">

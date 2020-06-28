@@ -9,7 +9,8 @@
   align-items: center
   position: relative
   top: -80px
-  z-index: -1
+  // z-index: -1
+  visibility: hidden
 
 .hero-header
   text-align: center
@@ -18,3 +19,27 @@
 .hero-header
   h1
     margin-bottom: 0
+  
+  p
+    margin-top: 0
+
+.hero-down-arrow
+  width: 50px
+  margin-bottom: 30px
+  animation: nudge 4s infinite
+
+@keyframes nudge
+  0%
+    transform: translate(0, -20px)
+  6%
+    transform: translate(0, 0)
+  7%
+    transform: translate(-5px, 0)
+  8%
+    transform: translate(5px, 0)
+  9%
+    transform: translate(-5px, 0)
+  10%
+    transform: translate(0, 0)
+  100%
+    transform: translate(0, 0)

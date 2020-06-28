@@ -23,10 +23,10 @@ const ProjectCard: React.SFC<ProjectCardProps> = (props) => {
         <p>{props.description}</p>
         <nav>
           <a href={props.github} target="_blank">
-            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github-logo" height="30px" width="30px" />
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github-logo" width="30px" />
           </a>
           <a href={props.link} target="_blank">
-            <img src="https://cdn1.iconfinder.com/data/icons/essential-21/128/External_Link-512.png" alt="external-link-icon" height="22px" width="22px" />
+            <img src="https://cdn1.iconfinder.com/data/icons/essential-21/128/External_Link-512.png" alt="external-link-icon" width="22px" />
           </a>
         </nav>
       </div>

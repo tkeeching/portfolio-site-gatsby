@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
     },
     {
       title: "Tetris",
-      description: "A classic tile-matching game built with vanilla JavaScript. Built with HTML, CSS and JavaScript",
+      description: "A classic tile-matching game built with built with vanilla JavaScript",
       imgURL: "https://github.com/tkeeching/tetris/raw/master/screenshot.png",
       github: "https://github.com/tkeeching/tetris",
       link: "https://tkeeching.github.io/tetris/" 
