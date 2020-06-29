@@ -27,21 +27,21 @@ const Projects: React.FC = () => {
     },
     {
       title: "Burger",
-      description: "A fun and interactive way to have your burger. Users can build a burger with their preferred toppings as well as selecting a ready-made burger from the menu. Users can remove individual toppings by clicking on them.",
+      description: "A fun and interactive way to have your burger. Users can build a burger with their preferred toppings as well as selecting a ready-made burger from the menu. Users can remove individual toppings by clicking on them. Built with React.",
       imgURL: "https://github.com/tkeeching/burger/raw/master/screenshot.png",
       github: "https://github.com/tkeeching/burger",
       link: "https://tkeeching.github.io/burger/" 
     },
     {
       title: "Tiny",
-      description: "A lightweight, responsive CRUD app that promotes positive sharing. User can share and heart posts while having the ability to delete their own posts.",
+      description: "A lightweight, responsive CRUD app that promotes positive sharing. User can share and heart posts while having the ability to delete their own posts.Built with Ruby, Sinatra and PostgreSQL. ",
       imgURL: "https://github.com/tkeeching/tiny/raw/master/screenshot.png",
       github: "https://github.com/tkeeching/tiny",
       link: "https://secure-wildwood-53101.herokuapp.com/" 
     },
     {
       title: "Magic Melbourne Moment",
-      description: "An interactive trip planner for tourists visiting Melbourne. Users can search for attractions by categories. They can star an attraction to save it to their personalized itinerary.",
+      description: "An interactive trip planner for tourists visiting Melbourne. Users can search for attractions by categories. They can star an attraction to save it to their personalized itinerary. Built with JavaScript, Node, Express, Sygic Travel API, Mapbox GL API and OpenWeatherMap API.",
       imgURL: "https://github.com/tkeeching/Magic-melbourne/raw/master/screenshot.png",
       github: "https://github.com/tkeeching/Magic-melbourne",
       link: "https://magic-melbourne-moments.herokuapp.com/" 
