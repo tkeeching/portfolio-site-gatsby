@@ -6,7 +6,7 @@ import ProfileImg from "../../components/ProfileImg/ProfileImg"
 const About: React.FC = () => (
   <div className="section-about">
     <a className="anchor" id="about"></a>
-    <h1>About me</h1>
+    <h1>About Kee</h1>
     <div className="profile-grid-container">
       <div>
         <p>A self-motivated bootcamp graduate looking for a role in Front End or Full Stack development</p>
@@ -15,6 +15,11 @@ const About: React.FC = () => (
           With a desire in creating a positive and lasting impact on people’s lives, I firmly believe in 
           continuous improvement and strive to apply my software engineering knowledge in creating tools 
           that empower people and businesses to reach their potential.
+        </p>
+        <p>
+          When I am not in front of the screen, you can find me out on the mountain taking in all the 
+          goodness that mother nature has to offer while contemplating my existence in it. I am also an avid badminton
+          player who enjoy a healthy competition in the fastest racquet sport on earth. 🏸
         </p>
       </div>
       <div className="profile-img">
@@ -61,8 +66,8 @@ const About: React.FC = () => (
             </ul>
           <li>On the radar:</li>
             <ul>
+              <li>React Native</li>
               <li>GraphQL</li>
-              <li>Ionic</li>
             </ul>
         </ul>
       </div>

@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
     <div className="hero-grid-container" ref={el => hero = el}>
       <div></div>
       <div className="hero-header" ref={el => heading = el}>
-        <h1>Hi, I'm Kee</h1>
+        <h1>Hello, I'm Kee</h1>
         <p>Let's create a better world together</p>
       </div>
       <div className="hero-down-arrow">
