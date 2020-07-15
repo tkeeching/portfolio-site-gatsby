@@ -9,7 +9,7 @@ const About: React.FC = () => (
     <h1>About Kee</h1>
     <div className="profile-grid-container">
       <div>
-        <p>A self-motivated bootcamp graduate looking for a role in Front End or Full Stack development</p>
+        <p>A self-motivated bootcamp graduate looking for a role in Front End or Full Stack development.</p>
         <p>My mission as a software developer is to create beautiful and functional applications that empower and improve lives.</p>
         <p>
           I have always been curious about how things works and figuring out why they stopped working.
