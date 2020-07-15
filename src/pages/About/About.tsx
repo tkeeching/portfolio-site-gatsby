@@ -12,12 +12,17 @@ const About: React.FC = () => (
         <p>A self-motivated bootcamp graduate looking for a role in Front End or Full Stack development</p>
         <p>My mission as a software developer is to create beautiful and functional applications that empower and improve lives.</p>
         <p>
-          With a desire in creating a positive and lasting impact on people’s lives, I firmly believe in 
-          continuous improvement and strive to apply my software engineering knowledge in creating tools 
-          that empower people and businesses to reach their potential.
+          I have always been curious about how things works and figuring out why they stopped working.
+          The problem-solving aspect of coding challenges me to learn new things and constantly improving 
+          my skill sets which I find deeply satisfying.
         </p>
         <p>
-          When I am not in front of the screen, you can find me out on the mountain taking in all the 
+          With a desire in creating a positive and lasting impact on people’s lives, I firmly believe in 
+          continuous improvement and strive to apply my software engineering knowledge in creating tools 
+          that empower people to live better, work better and dream bigger.
+        </p>
+        <p>
+          When I am not in front of the screen, you can find me out on the mountain ranges taking in all the 
           goodness that mother nature has to offer while contemplating my existence in it. I am also an avid badminton
           player who enjoy a healthy competition in the fastest racquet sport on earth. 🏸
         </p>
