@@ -44,7 +44,7 @@ const Projects: React.FC = () => {
       description: "An interactive trip planner for tourists visiting Melbourne. Users can search for attractions by categories. They can star an attraction to save it to their personalized itinerary. Built with JavaScript, Node, Express, Sygic Travel API, Mapbox GL API and OpenWeatherMap API.",
       imgURL: "https://github.com/tkeeching/Magic-melbourne/raw/master/screenshot.png",
       github: "https://github.com/tkeeching/Magic-melbourne",
-      link: "https://magic-melbourne-moments.herokuapp.com/" 
+      link: "https://radiant-dusk-00117.herokuapp.com/" 
     },
   ]
 
