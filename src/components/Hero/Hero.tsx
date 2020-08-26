@@ -3,7 +3,7 @@ import "./Hero.sass"
 import { Link } from "gatsby"
 import { TweenMax, TimelineLite, Power3 } from 'gsap'
 import DownArrow from "../DownArrow/DownArrow"
-
+import StyledBackgroundSection from "../StyledBackgroundSection/StyledBackgroundSection"
 
 const Hero: React.FC = () => {
   let hero = useRef(null)
@@ -21,18 +21,20 @@ const Hero: React.FC = () => {
   })
 
   return (
-    <div className="hero-grid-container" ref={el => hero = el}>
-      <div></div>
-      <div className="hero-header" ref={el => heading = el}>
-        <h1>Hello, I'm Kee</h1>
-        <p>Let's create a better world together</p>
+    <StyledBackgroundSection>
+      <div className="hero-grid-container" ref={el => hero = el}>
+        <div></div>
+        <div className="hero-header" ref={el => heading = el}>
+          <h1>Hello, I'm Kee</h1>
+          <p>Let's create a better world together</p>
+        </div>
+        <div className="hero-down-arrow">
+          <Link to="/#about">
+            <DownArrow />
+          </Link>
+        </div>
       </div>
-      <div className="hero-down-arrow">
-        <Link to="/#about">
-          <DownArrow />
-        </Link>
-      </div>
-    </div>
+    </StyledBackgroundSection>
   )
 }
 
