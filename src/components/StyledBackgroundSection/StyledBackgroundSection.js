@@ -24,7 +24,7 @@ const BackgroundSection = ({ className, children }) => (
           Tag="section"
           className={className}
           fluid={imageData}
-          backgroundColor={`#d6bdff`}
+          backgroundColor={`linen`}
         >
           { children }
         </BackgroundImage>
