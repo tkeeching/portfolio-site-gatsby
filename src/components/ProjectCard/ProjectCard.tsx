@@ -12,7 +12,12 @@ interface ProjectCardProps {
 const ProjectCard: React.SFC<ProjectCardProps> = (props) => {
 
   return (
-    <div className="project-card">
+    <div 
+      className="project-card"
+      data-sal="slide-up"
+      data-sal-duration="700"
+      data-sal-easing="ease"
+    >
       <div className="project-img">
         <a href={props.link} target="_blank">
           <img src={props.imgURL} alt="project-screenshot" />

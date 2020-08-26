@@ -51,7 +51,13 @@ const Projects: React.FC = () => {
   return (
     <div className="section-projects">
       <a className="anchor" id="projects"></a>
-      <h1>Projects</h1>
+      <h1
+        data-sal="fade"
+        data-sal-duration="1000"
+        data-sal-easing="ease"
+      >
+        Projects
+      </h1>
       <div className="projects-card-container">
         {
           projects.map(project => (
