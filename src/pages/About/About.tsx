@@ -36,7 +36,7 @@ const About: React.FC = () => (
           data-sal-delay="200"
           data-sal-easing="easeOutCirc"         
         >
-          I have always been curious about how things works and figuring out why they stopped working.
+          I am always curious about how things works and figuring out why they stopped working.
           The problem-solving aspect of coding challenges me to learn new things and constantly improving 
           my skill sets which I find deeply satisfying.
         </p>
