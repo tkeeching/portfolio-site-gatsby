@@ -7,6 +7,7 @@ const Footer: React.FC = () => (
       <p
         data-sal="fade"
         data-sal-duration="1100"
+        data-sal-delay="400"
         data-sal-easing="easeOutCubic"
       >
         &lt;/&gt; with <span className="love-symbol">❤</span> and 🍜 by Kee Tee © {new Date().getFullYear()}
@@ -14,6 +15,7 @@ const Footer: React.FC = () => (
       <p
         data-sal="fade"
         data-sal-duration="1300"
+        data-sal-delay="500"
         data-sal-easing="easeOutCubic"
       >
         Photo by 
@@ -24,6 +26,7 @@ const Footer: React.FC = () => (
       <p
         data-sal="fade"
         data-sal-duration="1500"
+        data-sal-delay="600"
         data-sal-easing="easeOutCubic"
       >
         Built with <a href="https://www.gatsbyjs.org">Gatsby</a>

@@ -53,8 +53,9 @@ const Projects: React.FC = () => {
       <a className="anchor" id="projects"></a>
       <h1
         data-sal="fade"
-        data-sal-duration="1000"
-        data-sal-easing="ease"
+        data-sal-duration="1700"
+        data-sal-delay="100"
+        data-sal-easing="easeOutCirc"
       >
         Projects
       </h1>

@@ -6,8 +6,9 @@ const Contact: React.FC = () => (
     <a className="anchor" id="contact"></a>
     <h1
       data-sal="fade"
-      data-sal-duration="1000"
-      data-sal-easing="ease"
+      data-sal-duration="1500"
+      data-sal-delay="100"
+      data-sal-easing="easeOutCirc"
     >
       Get in touch
     </h1>
@@ -17,7 +18,8 @@ const Contact: React.FC = () => (
         target="_blank"
         data-sal="slide-right"
         data-sal-duration="900"
-        data-sal-easing="easeOutCubic"
+        data-sal-delay="300"
+        data-sal-easing="easeOutCirc"
       >
         <img
           src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
@@ -29,7 +31,8 @@ const Contact: React.FC = () => (
         target="_blank"
         data-sal="slide-right"
         data-sal-duration="1100"
-        data-sal-easing="easeOutCubic"
+        data-sal-delay="500"
+        data-sal-easing="easeOutCirc"
       >
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTiH0w-gIJMAxwZ3706Xf_GUN-wh3TymU8AMA&usqp=CAU"
@@ -41,7 +44,8 @@ const Contact: React.FC = () => (
         target="_blank"
         data-sal="slide-right"
         data-sal-duration="1300"
-        data-sal-easing="easeOutCubic"
+        data-sal-delay="700"
+        data-sal-easing="easeOutCirc"
       >
         <img
           src="https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-512.png"

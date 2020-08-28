@@ -15,8 +15,9 @@ const ProjectCard: React.SFC<ProjectCardProps> = (props) => {
     <div 
       className="project-card"
       data-sal="slide-up"
-      data-sal-duration="700"
-      data-sal-easing="ease"
+      data-sal-duration="1700"
+      data-sal-delay="200"
+      data-sal-easing="easeOutCirc"
     >
       <div className="project-img">
         <a href={props.link} target="_blank">

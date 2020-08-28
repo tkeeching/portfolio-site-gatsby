@@ -8,8 +8,9 @@ const About: React.FC = () => (
     <a className="anchor" id="about"></a>
     <h1
       data-sal="fade"
-      data-sal-duration="1000"
-      data-sal-easing="ease"
+      data-sal-duration="1700"
+      data-sal-delay="100"
+      data-sal-easing="easeOutCirc"
     >
       About Kee
     </h1>
@@ -19,18 +20,21 @@ const About: React.FC = () => (
       <div>
         <p
           data-sal="slide-right"
-          data-sal-duration="500"
-          data-sal-easing="ease"        
+          data-sal-duration="1100"
+          data-sal-delay="200"
+          data-sal-easing="easeOutCirc"        
         >A self-motivated bootcamp graduate who is passionate about growth and continuous learning.</p>
         <p
           data-sal="slide-right"
-          data-sal-duration="700"
-          data-sal-easing="ease"         
+          data-sal-duration="1300"
+          data-sal-delay="200"
+          data-sal-easing="easeOutCirc"         
         >My mission as a software developer is to create beautiful and functional applications that empower and improve lives.</p>
         <p
           data-sal="slide-right"
-          data-sal-duration="900"
-          data-sal-easing="ease"         
+          data-sal-duration="1500"
+          data-sal-delay="200"
+          data-sal-easing="easeOutCirc"         
         >
           I have always been curious about how things works and figuring out why they stopped working.
           The problem-solving aspect of coding challenges me to learn new things and constantly improving 
@@ -38,8 +42,9 @@ const About: React.FC = () => (
         </p>
         <p
           data-sal="slide-right"
-          data-sal-duration="1100"
-          data-sal-easing="ease"         
+          data-sal-duration="1700"
+          data-sal-delay="200"
+          data-sal-easing="easeOutCirc"         
         >
           With a desire in creating a positive and lasting impact on people’s lives, I firmly believe in 
           continuous improvement and strive to apply my software engineering knowledge in creating tools 
@@ -47,8 +52,9 @@ const About: React.FC = () => (
         </p>
         <p
           data-sal="slide-right"
-          data-sal-duration="1300"
-          data-sal-easing="ease"         
+          data-sal-duration="1900"
+          data-sal-delay="200"
+          data-sal-easing="easeOutCirc"         
         >
           When I am not in front of the screen, you can find me out on the mountain ranges taking in all the 
           goodness that mother nature has to offer while contemplating my existence in it. I am also an avid badminton
@@ -58,8 +64,9 @@ const About: React.FC = () => (
       <div 
         className="profile-img"
         data-sal="slide-up"
-        data-sal-duration="1000"
-        data-sal-easing="easeOutCubic"
+        data-sal-duration="2000"
+        data-sal-delay="1000"
+        data-sal-easing="easeOutCirc"
       >
         <ProfileImg />
       </div>
@@ -68,8 +75,9 @@ const About: React.FC = () => (
     <div className="skill-grid-container">
       <div
         data-sal="slide-left"
-        data-sal-duration="900"
-        data-sal-easing="ease"
+        data-sal-duration="1300"
+        data-sal-delay="300"
+        data-sal-easing="easeOutCirc"
       >
         <h3>Current Stack</h3>
         <ul>
@@ -86,8 +94,9 @@ const About: React.FC = () => (
       </div>
       <div
         data-sal="slide-left"
-        data-sal-duration="1100"
-        data-sal-easing="ease"
+        data-sal-duration="1500"
+        data-sal-delay="400"
+        data-sal-easing="easeOutCirc"
       >
         <h3>Toolbox</h3>
         <ul>
@@ -104,8 +113,9 @@ const About: React.FC = () => (
       </div>
       <div
         data-sal="slide-left"
-        data-sal-duration="1300"
-        data-sal-easing="ease"
+        data-sal-duration="1700"
+        data-sal-delay="500"
+        data-sal-easing="easeOutCirc"
       >
         <h3>Learning</h3>
         <ul>
