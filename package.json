@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "author": "Kee Tee <tkeeching@gmail.com>",
   "dependencies": {
+    "@types/react-helmet": "^6.1.0",
     "babel-plugin-styled-components": "^1.11.1",
     "gatsby": "^2.23.10",
     "gatsby-background-image": "^1.1.2",

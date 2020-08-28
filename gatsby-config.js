@@ -1,11 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Kee TEE`,
-    description: `A self-motivated bootcamp graduate looking for a role in Front End or Full Stack development`,
-    author: `@gatsbyjs`,
+    title: `Hey, let's create a better world together!`,
+    description: `A self-motivated bootcamp graduate who is passionate about growth and continuous learning`,
+    author: `@tkeeching`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -24,7 +23,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/kt-icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sass`,
