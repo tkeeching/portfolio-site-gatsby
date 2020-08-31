@@ -6,7 +6,8 @@ interface ProjectCardProps {
   description: string,
   imgURL: string,
   github: string,
-  link: string
+  link: string,
+  stacks: Array<string>
 }
 
 const ProjectCard: React.SFC<ProjectCardProps> = (props) => {
@@ -27,6 +28,9 @@ const ProjectCard: React.SFC<ProjectCardProps> = (props) => {
       <div className="project-details">
         <h3>{props.title}</h3>
         <p>{props.description}</p>
+        <ul>
+          {props.stacks.map(el => <li>{el}</li>)}
+        </ul>
         <nav>
           <a href={props.github} target="_blank">
             <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github-logo" width="30px" />
