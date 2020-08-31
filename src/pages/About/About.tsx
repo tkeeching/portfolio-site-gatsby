@@ -65,7 +65,7 @@ const About: React.FC = () => (
         className="profile-img"
         data-sal="slide-up"
         data-sal-duration="2000"
-        data-sal-delay="1000"
+        data-sal-delay="500"
         data-sal-easing="easeOutCirc"
       >
         <ProfileImg />
