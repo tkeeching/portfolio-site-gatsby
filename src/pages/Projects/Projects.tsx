@@ -55,7 +55,7 @@ const Projects: React.FC = () => {
     {
       title: "Personal Website",
       description: "My personal website built with React, TypeScript and Gatsby",
-      imgURL: "https://github.com/tkeeching/Magic-melbourne/raw/master/screenshot.png",
+      imgURL: "https://github.com/tkeeching/portfolio-site-gatsby/raw/master/screenshot.png",
       github: "https://github.com/tkeeching/portfolio-site-gatsby",
       link: "https://kee.dev",
       stacks: ["React", "TypeScript", "SASS", "Gatsby"] 
