@@ -90,6 +90,7 @@ const About: React.FC = () => (
           <li>Ruby</li>
           <li>Sinatra</li>
           <li>PostgreSQL</li>
+          <li>Gatsby</li>
         </ul>
       </div>
       <div
@@ -103,9 +104,9 @@ const About: React.FC = () => (
           <li>Git</li>
           <li>GitHub</li>
           <li>Chrome Dev Tool</li>
+          <li>Linux (Ubuntu)</li>
           <li>VS Code</li>
           <li>Heroku</li>
-          <li>Netlify</li>
           <li>Firebase</li>
           <li>Slack</li>
           <li>Trello</li>
