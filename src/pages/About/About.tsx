@@ -57,7 +57,7 @@ const About: React.FC = () => (
           data-sal-easing="easeOutCirc"         
         >
           When I am not in front of the screen, you can find me out on the mountain ranges taking in all the 
-          goodness that mother nature has to offer while contemplating my existence in it. I am also an avid badminton
+          goodness that mother nature has to offer while pondering the meaning of life. I am also an avid badminton
           player who enjoy a healthy competition in the fastest racquet sport on earth. 🏸
         </p>
       </div>
