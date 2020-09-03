@@ -108,6 +108,7 @@ const About: React.FC = () => (
           <li>VS Code</li>
           <li>Heroku</li>
           <li>Firebase</li>
+          <li>AWS</li>
           <li>Slack</li>
           <li>Trello</li>
         </ul>
