@@ -12,6 +12,5 @@ A personal portfolio website built with React, TypeScript, Gatsby and deployed w
   * TypeScript
   * SASS
   * Gatsby
-  * React-
   * Firebase
   
