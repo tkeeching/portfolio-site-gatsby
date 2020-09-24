@@ -1,3 +1,9 @@
+$indigo: #bf72f3
+
+$duration: .3s
+$distance: 8px
+$easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275)
+  
 header
   display: flex
   justify-content: space-between
@@ -36,12 +42,40 @@ header
     color: white
     font-size: 1.2rem
     transition: color 0.3s ease-out
-    &:hover
-      color: gray
+    position: relative
+    padding-bottom: 8px
 
-header.scrolled
-  a:hover
-    color: black
+    &:before,
+    &:after
+      content: ''
+      position: absolute
+      bottom: 0
+      left: 0 
+      right: 0
+      height: 2px
+      background-color: $indigo
+
+    &:before
+      opacity: 0
+      transform: translateY(-$distance)
+      transition: transform 0s $easeOutBack, opacity 0s
+
+    &:after
+      opacity: 0
+      transform: translateY($distance/2)
+      transition: transform $duration $easeOutBack, opacity $duration
+
+    &:hover
+      &:before,
+      &:after
+        opacity: 1
+        transform: translateY(0)
+
+        &:before
+          transition: transform $duration $easeOutBack, opacity $duration
+
+        &:after
+          transition: transform 0s $duration $easeOutBack, opacity 0s $duration
 
 @media screen and ( max-width: 900px )
   header
@@ -52,3 +86,7 @@ header.scrolled
       font-size: 1rem
       &:hover
         color: none
+
+      &:before,
+      &:after
+        display: none
