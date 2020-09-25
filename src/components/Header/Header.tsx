@@ -27,6 +27,7 @@ const Header: React.FC = () => {
           <li><Link to="/#about">About</Link></li>
           <li><Link to="/#projects">Projects</Link></li>
           <li><Link to="/#contact">Contact</Link></li>
+          <li className="resume"><Link to="https://drive.google.com/file/d/1KSJaKiQZNmvl3GQ9nLl2zYl8TDPhmRrR/view?usp=sharing" target="_blank">Resume</Link></li>
         </ul>
       </nav>
     </header>
